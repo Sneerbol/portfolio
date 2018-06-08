@@ -63,17 +63,7 @@
 			</div><! --/row -->
 	    </div> <!-- /container -->
 	</div><! --/headerwrap -->
-	<script>
-		$(document).ready(function() {
-			
-			$(".web_1").addClass("animated bounce");
-			$(".web_2").addClass("animated bounce");
-			$(".web_3").addClass("animated bounce");
-			$(".web_4").addClass("animated bounce");
-			$(".web_5").addClass("animated bounce");
-			$(".web_6").addClass("animated bounce");
-		});
-	</script>
+	
 	<section id="works"></section>
 	<div class="container">
 		<div class="row centered mt mb">
@@ -112,16 +102,10 @@
 	<div class="row centered mt mb">
 		<div class="col-lg-8 col-lg-offset-2">
 			<h2>Roman Mihaylishin</h2>
-<!--		
+		
 
-<p>Hi, My name is Roman. I'm from Ivano-Frankivsk (Ukraine) I fancy programming. I began interested it when I was pupil.
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis provident doloribus et amet reprehenderit excepturi, corporis dolore explicabo veniam facilis delectus libero laudantium deleniti commodi, itaque aperiam. Consequatur, ad id!</p>
 
-<p>Now,I know: Python, HTML, CSS, JS, jQuery(DevOps-20%), love testing secure and developing. I'm learning very fast.
-<p>I do intermediate projects with HTML/CSS and jQuery(and GIT).I am the student in Ivano-Frankivsk state college of technologies and business.
-
-<p>In my free time I like play Dota2/CS:GO. Okay I think this information is enough and You know Who I'm
-		</div>
--->
 	</div><! --/row -->
 </div><! --/container -->
 
@@ -171,24 +155,25 @@
 		</div>
 	</div><! --/footerwrap -->
 	<footer>
+		<div class="footer text-center">
 		<h5>
-		© 2017  by Sneerbol.
+		 <p>© <span id="year">TEXT</span> by Sneerbol - All Rights Reserved.</p>
 		</h5>
+	</div>
 	</footer>
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-	  
-<script>
-  $(document).ready(function() {
-    $("li").addClass("animated bounce");
-    $("h5").addClass("animated shake");
-    
-  });
-</script>
+	  <script type="text/javascript">
+			var currentYear = (new Date).getFullYear();
+			$(document).ready(function() {
+			$("#year").text( (new Date).getFullYear() );
+			});
+		</script>
+
   </body>
 </html>

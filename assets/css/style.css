@@ -64,24 +64,30 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 	margin-bottom: 30px;
 }
+.navbar-nav {
+	padding-top: 15px;
+}
 
 .navbar-default .navbar-brand {
-	color: #17ffd1;
+	color: #000000;
 }
 
 .navbar-default {
 	background-color: transparent;
 	border-color: transparent;
+	box-shadow:-2px 2px 17px 1px #000;
+	background-color: white;
+	opacity: 0.7;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
+	color: #01cf0b;
 	background-color: transparent;
 	
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #17ffd1;
+	color: #000000;
 }
 
 /* ==========================================================================
@@ -135,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #social i:hover {
-	color: #1abc9c
+	color: #06ffcd
 }
 
 #footerwrap {
@@ -220,4 +226,11 @@ footer {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	background-color: #C2C2C2;
+}
+/* _______________________________________________*/
+li a:hover {
+	color: red;
+	lighting-color: #a4003a;
+	decoration: none;
+	
 }
